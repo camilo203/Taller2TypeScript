@@ -65,10 +65,5 @@ function showInfo(x) {
     lin.className = "card-link";
     lin.innerHTML = link;
     cardB2.appendChild(lin);
-    if (document.getElementById("dataCard") == null) {
-        containerDiv.appendChild(divcol);
-    }
-    else {
-        containerDiv.replaceChild(divcol, document.getElementById("dataCard"));
-    }
+    containerDiv.replaceChild(divcol, document.getElementById("dataCard"));
 }

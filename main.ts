@@ -91,14 +91,9 @@ function showInfo(x:any){
     cardB2.appendChild(lin);
 
 
-    if (document.getElementById("dataCard") == null){
-        
-        containerDiv.appendChild(divcol);
-
-    }
-    else{
-        containerDiv.replaceChild(divcol, document.getElementById("dataCard")!);
-    }
+    
+    containerDiv.replaceChild(divcol, document.getElementById("dataCard")!);
+    
 
 
 
